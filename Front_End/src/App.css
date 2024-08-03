@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section {
+  margin-bottom: 2em;
+}
+
+input {
+  display: block;
+  width: calc(100% - 22px); /* Adjusted to fit padding and borders */
+  margin-bottom: 1em;
+  padding: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}

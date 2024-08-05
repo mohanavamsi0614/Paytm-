@@ -16,7 +16,7 @@ This project consists of a frontend and a backend. The frontend is built with Re
 
 1. **Navigate to the frontend directory:**
    ```bash
-   cd frontend
+   cd front_end
    ```
 
 2. **Install dependencies:**
@@ -43,19 +43,12 @@ This project consists of a frontend and a backend. The frontend is built with Re
    npm install
    ```
 
-3. **Set up environment variables:**
-   Create a `.env` file in the backend directory and add the necessary environment variables. For example:
-   ```env
-   PORT=5000
-   DATABASE_URL=mongodb://localhost:27017/mydatabase
-   ```
-
 4. **Start the backend server:**
    ```bash
    npm start
    ```
 
-   The backend should now be running on `http://localhost:5000`.
+   The backend should now be running on `http://localhost:3000`.
 
 ## Project Structure
 
@@ -71,14 +64,12 @@ This project consists of a frontend and a backend. The frontend is built with Re
 ## Scripts
 
 ### Frontend
-- `npm start`: Starts the development server.
+- `npm run dev`: Starts the development server.
 - `npm run build`: Builds the project for production.
-- `npm test`: Runs the test suite.
 
 ### Backend
 - `npm start`: Starts the backend server.
 - `npm run dev`: Starts the backend server with nodemon for development.
-- `npm test`: Runs the test suite.
 
 ## Contributing
 1. Fork the repository.
@@ -88,11 +79,10 @@ This project consists of a frontend and a backend. The frontend is built with Re
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
-## License
-This project is licensed under the MIT License.
+
 
 ## Contact
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact [mohanavamsi14@gmail.com].
 ```
 
 Feel free to customize this README file according to your project's specific requirements and structure. If you need any further assistance, let me know! 😊
